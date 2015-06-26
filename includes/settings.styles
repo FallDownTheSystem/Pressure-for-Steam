@@ -5,8 +5,8 @@
 		// Fonts
 		// ***********************************************
 
-		basefont = "Noto Sans"
-		semibold = "Noto Sans"
+		basefont = "Segoe UI"
+		semibold = "Segoe UI"
 
 		headerfont = "Bebas Neue Bold"
 		// ***********************************************

@@ -44,9 +44,9 @@
 		TextEntry {
 			selectedtextcolor=white
 			selectedbgcolor=blue
-			shadowtextcolor=darkestGrey
+			shadowtextcolor=lightestGrey
 			bgcolor=none
-			textcolor=darkestGrey
+			textcolor=white
 			font-family=basefont
 			font-size=15
 			font-size=12 [$LINUX]
@@ -55,23 +55,23 @@
 			inset-right=6
 
 			render_bg {
-				0="fill(x0+2,y0+2,x1+32,y1-2, white)"
+				0="fill(x0+2,y0+2,x1+32,y1-2, fallDownsGrey)"
 
 				// TOP
-				1="image(x0,y0,x0+3,y0+4, graphics/textEntry/topLeft)"
-				2="image_scale(x0+3,y0,x1+32,y0+4, graphics/textEntry/topMiddle)"
-				3="image(x1+32,y0,x1+35,y0+4, graphics/textEntry/topRight)"
+				1="image(x0,y0,x0+3,y0+4, graphics/textEntry/dark/topLeft)"
+				2="image_scale(x0+3,y0,x1+32,y0+4, graphics/textEntry/dark/topMiddle)"
+				3="image(x1+32,y0,x1+35,y0+4, graphics/textEntry/dark/topRight)"
 
 				// LEFT
-				4="image_scale(x0,y0+4,x0+3,y1-3, graphics/textEntry/leftMiddle)"
+				4="image_scale(x0,y0+4,x0+3,y1-3, graphics/textEntry/dark/leftMiddle)"
 
 				// RIGHT
-				5="image_scale(x1+32,y0+4,x1+35,y1-3, graphics/textEntry/rightMiddle)"
+				5="image_scale(x1+32,y0+4,x1+35,y1-3, graphics/textEntry/dark/rightMiddle)"
 
 				// BOTTOM
-				6="image(x0,y1-3,x0+3,y1+1, graphics/textEntry/bottomLeft)"
-				7="image_scale(x0+3,y1-2,x1+32,y1+1, graphics/textEntry/bottomMiddle)"
-				8="image(x1+32,y1-3,x1+35,y1+1, graphics/textEntry/bottomRight)"
+				6="image(x0,y1-3,x0+3,y1+1, graphics/textEntry/dark/bottomLeft)"
+				7="image_scale(x0+3,y1-2,x1+32,y1+1, graphics/textEntry/dark/bottomMiddle)"
+				8="image(x1+32,y1-3,x1+35,y1+1, graphics/textEntry/dark/bottomRight)"
 			}
 
 		}

@@ -130,7 +130,7 @@ Scheme {
 	Fonts {
 		"Default" {
 			"1" {
-			"name" "Noto Sans"
+			"name" "Segoe UI"
 			"tall" "15"
 			"weight" "400"
 			}
